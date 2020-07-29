@@ -1,17 +1,11 @@
-
+#Import
 import random
-
+#Variables
 high_num = 10
 random_number = random.randint(1,high_num)
 win = False
 turns = 0
 stage = 1
-
-
-if stage == 1:
-	stage1()
-elif stage == 2:
-	stage2()
 
 #Stage 1
 def stage1():
@@ -67,7 +61,7 @@ def stage2():
        				print("Your guess was high, please enter a lower number")
 stage2()
 
-
+#Level Up
 if stage == 1:
 	stage1()
 elif stage == 2:
